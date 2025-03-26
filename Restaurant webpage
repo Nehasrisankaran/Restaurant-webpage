@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant </title>
+    <style>
+        #a{
+    background:url('Capture.PNG');
+    opacity: 0.7;
+    border:1px ridge ;
+}
+#b{
+    background:url('pancake.PNG');
+    border:1px ridge ;
+
+}
+#c{
+    background:url('meal.PNG');
+    border:1px ridge ;
+
+}
+.food{
+    border: ridge;
+    border:2px ridge;
+    display: flex;
+    background:url('pancake.PNG');
+}
+#q{
+    border:ridge;
+    height:250px;
+    width:250px;
+    background:url('meal.PNG');
+    margin:10px;
+}
+#v{
+    border:ridge;
+    height:250px;
+    width:250px;
+    background:url('food.PNG');
+    margin:10px;
+}
+#u{
+    
+    border:ridge;
+    height:350px;
+    width:350px;
+    background:url('capture.PNG');
+    margin:10px;
+}
+#w{
+    
+    border:ridge;
+    height:350px;
+    width:350px;
+    background:url('snack4.PNG');
+    margin:10px;
+}
+#z{
+    
+    border:ridge;
+    height:350px;
+    width:350px;
+    background:url('pancake.PNG');
+    margin:10px;
+}
+    </style>
+</head>
+<link rel="stylesheet" href="restaurant.css"
+<body>
+    <h1><center><u>FOOD RESTAURANT WEBSITE</u></center></h1><br>
+    <h2>1.Home Page</h2><br>
+    <div id="a">
+    <p><font color="white">Home&nbsp;&nbsp;About&nbsp;&nbsp;Menu&nbsp;&nbsp;Popular&nbsp;&nbsp;Gallery&nbsp;&nbsp;Odrder</font></p>
+    <h1 id="txt"><center><font color="white">We Belive Good Food Offer Great Smile</font></center></h1>
+    <p><font color="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore beatae, molestiae, asperiores vero sint dolores natus, vel exercitationem corporis rem debitis ab voluptatem! Earum mollitia velit incidunt 
+        eveniet voluptates neque!</font></p>
+    <input type=button value="Get Started">
+    </div ><br>
+    <h2>2.About</h2><br>
+    <div id="b">
+    <h1><font color="white">About Hotel</font></h1>
+    <h1><center><font color="white">A World About Us</center></font></h1>
+    <p><center><font color="white">Home&nbsp;&nbsp;About&nbsp;&nbsp;Menu&nbsp;&nbsp;Popular&nbsp;&nbsp;Gallery&nbsp;&nbsp;Order</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore beatae, molestiae, asperiores vero sint dolores natus, vel exercitationem corporis rem debitis ab voluptatem! Earum mollitia velit incidunt 
+        eveniet voluptates neque!</p>
+    <input type=button value="Learn More"></div><br>
+    <h2><font color="black">3.Menu</font></h2><br>
+    <div id="c">
+        <h1><center><font color="white">Our Delicious Menu</font></center></h1>
+        <p><font color="white">Home&nbsp;&nbsp;About&nbsp;&nbsp;Menu&nbsp;&nbsp;Popular&nbsp;&nbsp;Gallery&nbsp;&nbsp;Order</font></p>
+        <p><font color="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore beatae, molestiae, asperiores vero sint dolores natus, vel exercitationem corporis rem debitis ab voluptatem! Earum mollitia velit incidunt 
+            eveniet voluptates neque!<br><br>
+        breakfast- South Indian breakfast<br><br>
+        Lunch-Meals<br><br>
+        Dinner-Chapathi
+     </font></p>
+        <input type=button value="Learn More"></div>
+        <h2><font color="black">3.Populars</font></h2><br>
+        <div class="food">
+            <h1><center><font color="white">Most Popular Foods</font></center></h1>
+        <div id="q"></div>
+        <div id="u"></div>
+        <div id="v"></div>
+        <div id="w"></div>
+        <div id="z"></div>
+        </div>
+        <
+</body>
+</html>
